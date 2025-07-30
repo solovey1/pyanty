@@ -249,7 +249,7 @@ data.update({'proxy':{
   'port': '8443',
   'type': 'http' 
 }})
-# also you can add 'login' and 'password' args
+# also you can add 'login', 'password' and 'changeIpUrl' args
 ```
 
 ### and others...
