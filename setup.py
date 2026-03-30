@@ -4,10 +4,7 @@ from setuptools import setup, find_packages
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
-install_requires = ['requests', 'selenium']
-
-if sys.platform == 'win32':
-    install_requires.append('pywinauto')
+install_requires = ['requests']
 
 setup(
     name='pyanty',
